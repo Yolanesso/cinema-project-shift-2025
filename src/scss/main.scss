@@ -1,0 +1,27 @@
+@import './normalize.scss', './variables', './fonts';
+
+@import './blocks/card', './blocks/footer', './blocks/header';
+
+.title {
+	margin-top: 48px;
+	padding: 0 256px;
+	font-size: $font-size-title;
+	font-family: $font-family-base;
+	font-weight: $font-weight-xl;
+	line-height: 32px;
+}
+
+.main {
+	margin-top: 16px;
+
+	&__container {
+		padding: 0 240px;
+	}
+}
+
+.movie-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	padding: 20px;
+}
