@@ -1,0 +1,43 @@
+.card {
+	font-family: $font-family-base;
+
+	&__content {
+		max-width: 330px;
+	}
+
+	&__title {
+		margin-top: 16px;
+		font-size: $font-size-card-title;
+		font-weight: $font-weight-m;
+	}
+
+	&__type {
+		margin-top: 4px;
+		color: $grey-clr;
+		font-weight: $font-weight-s;
+	}
+
+	&__rating {
+		margin-top: 5px;
+		&__platform {
+			margin-top: 4px;
+			font-size: $font-size-card-platform;
+			color: $grey-clr;
+		}
+
+		&__container {
+			display: flex;
+			column-gap: 3px;
+		}
+	}
+
+	&__btn-info {
+		margin-top: 16px;
+		padding: 16px 119px;
+		border: none;
+		border-radius: $button-border-radius;
+		background-color: $purple-clr;
+		color: $white-clr;
+		font-weight: $font-weight-m;
+	}
+}

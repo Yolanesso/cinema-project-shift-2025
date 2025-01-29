@@ -1,0 +1,33 @@
+.header {
+	border-bottom: 1px solid $border-clr;
+
+	&__container {
+		padding: 22px 240px;
+		column-gap: 32px;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.nav {
+	&__list {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		column-gap: 32px;
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		column-gap: 16px;
+	}
+
+	&__link {
+		color: $grey-clr;
+		text-decoration: none;
+		font-weight: $font-weight-l;
+		font-family: $font-family-base;
+		font-size: $font-size-nav;
+	}
+}
